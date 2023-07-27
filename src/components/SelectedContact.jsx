@@ -21,7 +21,7 @@ const SelectedContact = ({ selectedContactId, setSelectedContactId }) => {
   console.log("Selected Contact: ", contact);
 
   return (
-    <div>
+    <div className="SelectedContact">
       {contact ? (
         <>
           <h2>{contact.name}</h2>

@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,71 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body,
+h1,
+h2,
+p,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the table on the page */
+table {
+  margin: 50px auto;
+}
+
+/* Style the table header */
+th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the table rows */
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style the table cells (td) */
+td {
+  padding: 10px;
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Style the SelectedContact component */
+.SelectedContact {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.SelectedContact h2 {
+  margin-bottom: 10px;
+}
+
+.SelectedContact p {
+  margin: 5px 0;
+}
+
+.SelectedContact button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SelectedContact button:hover {
+  background-color: #0056b3;
 }
